@@ -182,7 +182,7 @@ input::file-selector-button:hover{
 .toggleButton{
    position: absolute;
    right: 30%;
-   top:30px;
+   top:8%;
 }
 input::-webkit-calendar-picker-indicator{
     background-color: #ffffff;
