@@ -42,6 +42,12 @@
     
    
 }
+.formHeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:1rem 0;
+}
 .formHeader{
     height: 10%;
     display: flex;
@@ -153,10 +159,7 @@ input::file-selector-button:hover{
   background-color: #fff;
     background-size: cover;
 }
-.textContainer{
 
-
-}
 .text{
     font-size: 2rem;
     font-weight: 600;
@@ -180,9 +183,8 @@ input::file-selector-button:hover{
 
 }
 .toggleButton{
-   position: absolute;
-   right: 30%;
-   top:8%;
+   
+   
 }
 input::-webkit-calendar-picker-indicator{
     background-color: #ffffff;
