@@ -38,9 +38,6 @@ function Contact() {
   return (
     <>
       <div className="mainContainer" data-theme={theme}>
-        <div className="toggleButton">
-          <ThemeToggle />
-        </div>
         {isSubmit && (
           <div className="modalContainer">
             <div className="modal">
@@ -87,8 +84,14 @@ function Contact() {
         )}
 
         <div className="formContainer">
+          <div className="formHeaderContainer">
+        
           <div className="formHeader">
             <h3 className="headerHeading">Welcome </h3>
+          </div>
+          <div className="toggleButton">
+          <ThemeToggle />
+        </div>
           </div>
           <form onSubmit={handleSubmit}>
             <div className="inputContainer">
